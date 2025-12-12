@@ -1,0 +1,14 @@
+.editorial::first-letter {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #c2185b;
+    float: left;
+    margin-right: 8px;
+    line-height: 1;
+}
+
+.editorial::first-line {
+    font-variant: small-caps;
+    color: #303f9f;
+    font-weight: 600;
+}

@@ -1,0 +1,24 @@
+.titulo-decorado {
+    position: relative;
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #333;
+    margin: 40px 0;
+}
+
+.titulo-decorado::before {
+    content: "✦";
+    position: relative;
+    margin-right: 10px;
+    color: #fff200;
+    font-size: 1.2rem;
+}
+
+.titulo-decorado::after {
+    content: "✦";
+    position: relative;
+    margin-left: 10px;
+    color: #2df500;
+    font-size: 1.2rem;
+}
